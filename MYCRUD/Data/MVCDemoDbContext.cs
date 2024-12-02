@@ -11,5 +11,6 @@ namespace MYCRUD.Data
 
 
         public DbSet<Employee> Employees{ get; set; }
+        public DbSet<Technique> Techniques{ get; set; }
     }
 }
